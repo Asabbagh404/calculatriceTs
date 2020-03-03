@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "files": [
+  "src/controller/calculatorController.ts",
+  "src/model/buttonModel.ts",
+  "src/model/calculatorModel.ts",
+  "src/model/digitModel.ts",
+  "src/model/operatorModel.ts",
+  "src/view/calculatorView.ts"
+  ]
+}
