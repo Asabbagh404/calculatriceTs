@@ -4,20 +4,18 @@
   "description": "Calculatrice js",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src test --fix",
-    "prebuild": "npm run lint && npm test",
-    "build": "npm run bundle && npm run minify",
-    "build-amd": "npm run bundle-amd && npm run minify-amd",
-    "bundle": "rollup -c",
-    "bundle-amd": "rollup -c rollup.config.amd.js",
-    "minify": "uglifyjs dist/milsymbol.development.js -o dist/milsymbol.js --comments --compress --mangle --source-map",
-    "minify-amd": "uglifyjs dist/amd/milsymbol.development.js -o dist/amd/milsymbol.js --comments --compress --mangle --source-map",
-    "test": "tead --coverage"
+    "build": "webpack --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/mustache": "^4.0.1",
-    "rollup": "^1.32.0"
+    "rollup": "^1.32.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
   }
 }
