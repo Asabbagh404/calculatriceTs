@@ -1,5 +1,12 @@
-import {button} from "./buttonModel";
+import {Button} from "./buttonModel";
 
-export class operator extends button {
-
+export class Operator extends Button {
+    action : string;
+    constructor(val : string){
+        super();
+        this.action = val;
+    }
+    getValue(){
+        return this.action;
+    }
 }

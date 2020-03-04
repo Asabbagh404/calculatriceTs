@@ -1,14 +1,16 @@
-import { button } from './buttonModel'
+import { Button } from './buttonModel'
 
-class calculator {
-    buttons : Array<button>;
-    result : number;
-    handled : number;
+export class Calculator {
+    buttons : Array<Button>;
+    result : number = 0;
+    handled : string = "0";
+    cache : Array<string> = [];
 
-    constructor(buttons : Array<button>, result : number, handled : number){
+    constructor(buttons : Array<Button>, result : number = 0, handled : string = "0", cache : Array<string> = []){
         this.buttons = buttons;
         this.result = result;
         this.handled = handled;
+        this.cache = cache;
     }
     getResult() {
         return this.result;
@@ -16,7 +18,7 @@ class calculator {
     getHandled() {
         return this.handled;
     }
-    setHandled(val : number) {
+    setHandled(val : string) {
          this.handled = val;
          return this.handled;
     }

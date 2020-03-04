@@ -1,5 +1,8 @@
-import {button} from "./buttonModel";
+import {Button} from "./buttonModel";
 
-export class digit extends button {
-
+export class Digit extends Button {
+    constructor(val : string){
+        super();
+        this.value = val;
+    }
 }
