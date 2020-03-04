@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/mustache": "^4.0.1",
+    "mustache": "^4.0.0",
     "rollup": "^1.32.0",
     "typescript": "^3.8.3"
   },

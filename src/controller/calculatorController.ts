@@ -5,7 +5,7 @@ import {Operator} from "../model/operatorModel";
 
 export class CalculatorController {
     calcInit () : Calculator {
-        let buttons: Array<Button>;
+        let buttons = [];
         let actions : Array<string>;
         actions = ['+','-','%','/'];
         for (let i = 0; i < 10; i++) {

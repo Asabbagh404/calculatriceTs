@@ -1,6 +1,11 @@
-<script id="tpl-greeting" type="text/html">
-    <h1>{{ title }}</h1>
-    {{#buttons}}
-    <div>* {{.}} <br></div>
-    {{/buttons}}
-</script>
+
+<h2>{{title}}</h2>
+<input class="mb-4" type="text" disabled value="{{ calculatorView.result }}">
+<div class="row">
+    <div class="col-lg-4">
+        {{#calculatorView.buttons}}
+            <div class="btn btn-info">{{ value }} <br></div>
+        {{/calculatorView.buttons}}
+    </div>
+</div>
+
