@@ -1,11 +1,26 @@
-
 <h2>{{title}}</h2>
-<input class="mb-4" type="text" disabled value="{{ calculatorView.result }}">
-<div class="row">
-    <div class="col-lg-4">
-        {{#calculatorView.buttons}}
-            <div class="btn btn-info">{{ value }} <br></div>
-        {{/calculatorView.buttons}}
+<div class="container">
+    <div class="row">
+        <input class="mb-4 col-lg-4" type="text" disabled value="{{calculatorView.cache}}">
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="row">
+                {{#calculatorView.buttons}}
+                    {{#value}}
+                        <div class="btn btn-info col-lg-4 mr-auto ml-auto mb-1 digit">{{ value }}</div>
+                    {{/value}}
+                {{/calculatorView.buttons}}
+            </div>
+        </div>
+        <div class="col-lg-4 ml-2">
+            <div class="row">
+                {{#calculatorView.buttons}}
+                    {{#action}}
+                        <div class="btn btn-success col-lg-5 mb-1 mr-2 operation">{{ action }}</div>
+                    {{/action}}
+                {{/calculatorView.buttons}}
+            </div>
+        </div>
     </div>
 </div>
-
