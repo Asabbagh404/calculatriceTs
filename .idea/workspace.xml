@@ -2,31 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d9adce1-da17-462e-a596-1fe2123f9b1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/view.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/calculator.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/calculatorController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/calculatorController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/calculatorController.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/calculatorController.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/calculatorController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/calculatorController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/buttonModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/buttonModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/buttonModel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/buttonModel.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/buttonModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/buttonModel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/calculatorModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/calculatorModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/calculatorModel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/calculatorModel.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/calculatorModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/calculatorModel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/digitModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/digitModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/digitModel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/digitModel.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/digitModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/digitModel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/operatorModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/operatorModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/operatorModel.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/operatorModel.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/operatorModel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/operatorModel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/calculatorView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/calculatorView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/calculatorView.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/calculatorView.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/calculatorView.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/calculatorView.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +101,7 @@
       <workItem from="1583231519702" duration="4541000" />
       <workItem from="1583239191251" duration="1173000" />
       <workItem from="1583240758770" duration="8872000" />
-      <workItem from="1583307643147" duration="6051000" />
+      <workItem from="1583307643147" duration="6233000" />
     </task>
     <servers />
   </component>

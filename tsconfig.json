@@ -2,6 +2,7 @@
   "compilerOptions": {
     "noImplicitAny": true,
     "removeComments": true,
+    "target": "es5",
     "preserveConstEnums": true,
     "sourceMap": true,
     "outDir": "build/"

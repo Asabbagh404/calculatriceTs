@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var calculatorModel_1 = require("../model/calculatorModel");
 var digitModel_1 = require("../model/digitModel");
 var operatorModel_1 = require("../model/operatorModel");

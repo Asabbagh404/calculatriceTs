@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var Calculator = (function () {
     function Calculator(buttons, result, handled, cache) {
         if (result === void 0) { result = 0; }

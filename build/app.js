@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var Mustache = require("mustache");
 var calculatorController_1 = require("./controller/calculatorController");
 var calculatorModel_1 = require("./model/calculatorModel");
