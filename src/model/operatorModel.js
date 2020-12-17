@@ -14,12 +14,17 @@ var __extends = (this && this.__extends) || (function () {
 })();
 exports.__esModule = true;
 var buttonModel_1 = require("./buttonModel");
-var operator = (function (_super) {
-    __extends(operator, _super);
-    function operator() {
-        return _super !== null && _super.apply(this, arguments) || this;
+var Operator = (function (_super) {
+    __extends(Operator, _super);
+    function Operator(val) {
+        var _this = _super.call(this) || this;
+        _this.action = val;
+        return _this;
     }
-    return operator;
-}(buttonModel_1.button));
-exports.operator = operator;
+    Operator.prototype.getValue = function () {
+        return this.action;
+    };
+    return Operator;
+}(buttonModel_1.Button));
+exports.Operator = Operator;
 //# sourceMappingURL=operatorModel.js.map

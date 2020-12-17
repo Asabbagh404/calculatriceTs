@@ -1,25 +1,33 @@
 "use strict";
 exports.__esModule = true;
-var calculator = (function () {
-    function calculator(buttons, result, handled) {
+var Calculator = (function () {
+    function Calculator(buttons, result, handled, cache) {
+        if (result === void 0) { result = 0; }
+        if (handled === void 0) { handled = "0"; }
+        if (cache === void 0) { cache = []; }
+        this.result = 0;
+        this.handled = "0";
+        this.cache = [];
         this.buttons = buttons;
         this.result = result;
         this.handled = handled;
+        this.cache = cache;
     }
-    calculator.prototype.getResult = function () {
+    Calculator.prototype.getResult = function () {
         return this.result;
     };
-    calculator.prototype.getHandled = function () {
+    Calculator.prototype.getHandled = function () {
         return this.handled;
     };
-    calculator.prototype.setHandled = function (val) {
+    Calculator.prototype.setHandled = function (val) {
         this.handled = val;
         return this.handled;
     };
-    calculator.prototype.setResult = function (val) {
+    Calculator.prototype.setResult = function (val) {
         this.result = val;
         return this.result;
     };
-    return calculator;
+    return Calculator;
 }());
+exports.Calculator = Calculator;
 //# sourceMappingURL=calculatorModel.js.map

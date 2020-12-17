@@ -1,17 +1,19 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
     "noImplicitAny": true,
     "removeComments": true,
+    "module" : "commonjs",
+    "target": "es5",
     "preserveConstEnums": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "outDir": "build/"
   },
   "files": [
-  "src/controller/calculatorController.ts",
-  "src/model/buttonModel.ts",
-  "src/model/calculatorModel.ts",
-  "src/model/digitModel.ts",
-  "src/model/operatorModel.ts",
-  "src/view/calculatorView.ts"
+    "src/controller/calculatorController.ts",
+    "src/model/buttonModel.ts",
+    "src/model/calculatorModel.ts",
+    "src/model/digitModel.ts",
+    "src/model/operatorModel.ts",
+    "src/app.ts"
   ]
 }

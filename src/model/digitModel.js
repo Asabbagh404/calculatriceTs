@@ -14,12 +14,14 @@ var __extends = (this && this.__extends) || (function () {
 })();
 exports.__esModule = true;
 var buttonModel_1 = require("./buttonModel");
-var digit = (function (_super) {
-    __extends(digit, _super);
-    function digit() {
-        return _super !== null && _super.apply(this, arguments) || this;
+var Digit = (function (_super) {
+    __extends(Digit, _super);
+    function Digit(val) {
+        var _this = _super.call(this) || this;
+        _this.value = val;
+        return _this;
     }
-    return digit;
-}(buttonModel_1.button));
-exports.digit = digit;
+    return Digit;
+}(buttonModel_1.Button));
+exports.Digit = Digit;
 //# sourceMappingURL=digitModel.js.map

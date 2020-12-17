@@ -1,13 +1,9 @@
 "use strict";
 exports.__esModule = true;
-var button = (function () {
-    function button(val) {
-        this.value = val;
+var Button = (function () {
+    function Button() {
     }
-    button.prototype.getValue = function () {
-        return this.value;
-    };
-    return button;
+    return Button;
 }());
-exports.button = button;
+exports.Button = Button;
 //# sourceMappingURL=buttonModel.js.map
